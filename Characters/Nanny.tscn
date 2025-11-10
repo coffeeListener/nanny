@@ -1,0 +1,104 @@
+[gd_scene load_steps=2 format=3 uid="uid://q4kax7n81luc"]
+
+[ext_resource type="PackedScene" uid="uid://10syeawwap5l" path="res://Assets/chinese_girl_animated.glb" id="1_d10le"]
+
+[node name="Nanny_Scene" instance=ExtResource("1_d10le")]
+
+[node name="Skeleton3D" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0" index="1"]
+bones/0/position = Vector3(0.0005651051, -0.02150003, -1.0755941)
+bones/0/rotation = Quaternion(-0.7278938, 0.0032567182, -0.043174796, 0.68432146)
+bones/1/rotation = Quaternion(-0.0034877919, -0.0020429248, -0.007785625, 0.9999615)
+bones/2/rotation = Quaternion(-0.018544765, -0.0075227893, 0.016283896, 0.9996671)
+bones/3/rotation = Quaternion(-0.018466398, -0.006625906, 0.016706238, 0.999668)
+bones/4/rotation = Quaternion(0.009018216, -0.023443095, 0.0042259675, 0.99967563)
+bones/5/rotation = Quaternion(0.022072952, 0.006042407, 0.0042082267, 0.9997293)
+bones/6/rotation = Quaternion(-0.52804315, -0.47360754, 0.548071, -0.44326586)
+bones/7/rotation = Quaternion(0.54226357, 0.021051198, -0.057909533, 0.8379461)
+bones/8/rotation = Quaternion(0.029138645, 0.16790149, 0.13475044, 0.976116)
+bones/9/rotation = Quaternion(0.0058035506, 0.024715107, -0.013446847, 0.99958724)
+bones/10/rotation = Quaternion(0.01941523, 0.1782917, 0.2678835, 0.9466117)
+bones/11/rotation = Quaternion(0.046236534, -0.16609852, -0.17198242, 0.9698946)
+bones/12/rotation = Quaternion(-0.009019141, -0.07080199, 0.09562, 0.99285585)
+bones/13/rotation = Quaternion(0.08453588, 0.0268546, 0.020810653, 0.99584115)
+bones/14/rotation = Quaternion(0.17700422, -0.020381555, -0.02899364, 0.9835719)
+bones/15/rotation = Quaternion(0.14156981, -0.017500965, -0.046043485, 0.9887021)
+bones/16/rotation = Quaternion(0.16116229, -0.014099487, -0.0028464545, 0.9868231)
+bones/17/rotation = Quaternion(0.27576277, -0.0055989483, -0.04691761, 0.9600637)
+bones/18/rotation = Quaternion(0.14573069, -0.005628292, -0.008734603, 0.9892698)
+bones/19/rotation = Quaternion(0.14506543, -0.038179915, -0.048890334, 0.98747563)
+bones/20/rotation = Quaternion(0.33094192, 0.026162418, -0.03251667, 0.9427278)
+bones/21/rotation = Quaternion(0.18320404, 0.015395187, -0.024791693, 0.9826417)
+bones/22/rotation = Quaternion(0.2306073, -0.0586447, -0.055352025, 0.96969956)
+bones/23/rotation = Quaternion(0.31917554, 0.08636567, -0.030540075, 0.9432578)
+bones/24/rotation = Quaternion(0.15602478, 0.052898757, -0.031295687, 0.98583907)
+bones/25/rotation = Quaternion(0.56306285, -0.43674594, 0.52645, 0.46374968)
+bones/26/rotation = Quaternion(0.52099663, -0.010972902, -0.018984886, 0.8532771)
+bones/27/rotation = Quaternion(-0.016533429, -0.106276736, -0.13297185, 0.9852667)
+bones/28/rotation = Quaternion(-0.020045971, -0.039254785, 0.0061877463, 0.9990091)
+bones/29/rotation = Quaternion(0.089339234, -0.21061091, -0.22151902, 0.94794035)
+bones/30/rotation = Quaternion(0.04426205, 0.16690907, 0.115213245, 0.9782169)
+bones/31/rotation = Quaternion(-0.018872898, 0.07687707, -0.1614993, 0.98369294)
+bones/32/rotation = Quaternion(0.036354877, -0.026408743, -0.02826536, 0.99859005)
+bones/33/rotation = Quaternion(0.13106906, 0.019307928, 0.02805001, 0.9907882)
+bones/34/rotation = Quaternion(0.0959101, 0.015326149, 0.03917053, 0.99450094)
+bones/35/rotation = Quaternion(0.074409544, 0.013704187, 0.0057239933, 0.99711716)
+bones/36/rotation = Quaternion(0.19266753, 0.001696072, 0.044878162, 0.9802359)
+bones/37/rotation = Quaternion(0.059854, 0.00530635, 0.010293051, 0.99814)
+bones/38/rotation = Quaternion(0.07090759, 0.03832108, 0.05393028, 0.99528646)
+bones/39/rotation = Quaternion(0.26043367, -0.029020786, 0.02766044, 0.96465904)
+bones/40/rotation = Quaternion(0.109879114, -0.018050777, 0.024253018, 0.9934851)
+bones/41/rotation = Quaternion(0.15339394, 0.0498507, 0.06240716, 0.98493177)
+bones/42/rotation = Quaternion(0.24417244, -0.089131065, 0.0128172245, 0.96554196)
+bones/43/rotation = Quaternion(0.07828809, -0.056118328, 0.021383513, 0.9951204)
+bones/44/rotation = Quaternion(-0.09230536, 0.20208365, 0.9749798, -0.007501293)
+bones/45/rotation = Quaternion(-0.4798828, 0.00908062, 0.021728288, 0.8770166)
+bones/46/rotation = Quaternion(0.4171985, 0.08245235, 0.07511568, 0.901945)
+bones/47/rotation = Quaternion(0.49097264, -0.06035144, 0.02725044, 0.86865467)
+bones/48/rotation = Quaternion(-0.07471769, 0.05191717, 0.9916798, -0.09106745)
+bones/49/rotation = Quaternion(-0.19341336, -0.012217188, -0.028175393, 0.9806366)
+bones/50/rotation = Quaternion(0.33478907, -0.08782518, -0.03950465, 0.93735933)
+bones/51/rotation = Quaternion(0.55443794, 0.050185185, -0.018778339, 0.83049834)
+
+[node name="mixamorig_Head_1" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="0"]
+transform = Transform3D(0.999849, -0.016926296, 0.0038441727, -0.0051828674, -0.079771824, 0.9967995, -0.016565444, -0.9966689, -0.079847544, 0.012859474, -0.05062396, -1.559394)
+
+[node name="mixamorig_LeftHandThumb3_4" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="1"]
+transform = Transform3D(0.21082817, -0.06768669, -0.97517675, -0.8377863, 0.5014852, -0.2159333, 0.50365293, 0.8625134, 0.049020268, 0.23762019, 0.026702337, -0.9074793)
+
+[node name="mixamorig_LeftHandIndex3_8" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="2"]
+transform = Transform3D(0.32002583, -0.526901, -0.7873743, -0.9466, -0.14349194, -0.28871962, 0.03914502, 0.83772576, -0.5446855, 0.252886, 0.024273843, -0.84008306)
+
+[node name="mixamorig_LeftHandMiddle3_12" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="3"]
+transform = Transform3D(0.28900778, -0.7870022, -0.5450699, -0.9559721, -0.20697471, -0.2080355, 0.050908916, 0.58119524, -0.8121697, 0.246301, 0.0028499586, -0.8346689)
+
+[node name="mixamorig_LeftHandRing3_16" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="4"]
+transform = Transform3D(0.3344311, -0.84951246, -0.40802383, -0.9419175, -0.28715864, -0.17416042, 0.030784206, 0.4425692, -0.89620507, 0.2518034, -0.01773438, -0.8376844)
+
+[node name="mixamorig_LeftHandPinky3_20" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="5"]
+transform = Transform3D(0.4420291, -0.8565124, -0.26645017, -0.8834251, -0.36420602, -0.29481205, 0.15546766, 0.36570436, -0.91765445, 0.25600016, -0.037798673, -0.8537821)
+
+[node name="mixamorig_RightHandThumb3_28" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="6"]
+transform = Transform3D(0.43511257, 0.19277677, 0.87949616, 0.59661245, 0.6698518, -0.4419862, -0.674337, 0.7170318, 0.1764478, -0.22659187, 0.1453486, -0.9347403)
+
+[node name="mixamorig_RightHandIndex3_32" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="7"]
+transform = Transform3D(0.47354043, 0.14094146, 0.86942166, 0.8609997, 0.13390762, -0.4906608, -0.18557669, 0.98091954, -0.05794002, -0.26535693, 0.1708879, -0.8815251)
+
+[node name="mixamorig_RightHandMiddle3_36" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="8"]
+transform = Transform3D(0.441435, 0.2505604, 0.8615997, 0.88159287, 0.057728704, -0.46846655, -0.16711822, 0.9663778, -0.19540873, -0.27034202, 0.14932472, -0.8688606)
+
+[node name="mixamorig_RightHandRing3_40" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="9"]
+transform = Transform3D(0.48392272, 0.4152318, 0.7703245, 0.86753595, -0.11206663, -0.48458362, -0.11488687, 0.90278584, -0.41446012, -0.27678895, 0.12889577, -0.86912805)
+
+[node name="mixamorig_RightHandPinky3_44" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="10"]
+transform = Transform3D(0.6231269, 0.45200518, 0.6382812, 0.7601176, -0.15777767, -0.6303386, -0.18420988, 0.8779498, -0.4418927, -0.2770923, 0.10575673, -0.87945986)
+
+[node name="mixamorig_LeftToeBase_55" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="11"]
+transform = Transform3D(-0.9744092, -0.1579788, -0.15987515, -0.18583502, 0.9663674, 0.17772055, 0.12642267, 0.20288828, -0.9710017, 0.15414733, 0.0011737384, -0.07981688)
+
+[node name="mixamorig_RightToeBase_60" parent="Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D" index="12"]
+transform = Transform3D(-0.99759144, 0.04081212, -0.056094915, 0.04454179, 0.9967766, -0.0668889, 0.053183343, -0.069229156, -0.99618196, -0.011396403, 0.028452054, -0.007328391)
+
+[node name="AnimationPlayer" parent="." index="1"]
+autoplay = "WALK_2"
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." index="2"]
