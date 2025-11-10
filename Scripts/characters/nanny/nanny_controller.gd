@@ -7,7 +7,7 @@ var speed = 5.0
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 # Reference to the animated mesh
-@onready var mesh = $Sketchfab_model/root/GLTF_SceneRootNode/chinese_girl_66/GLTF_created_0/Skeleton3D/Object_6
+@onready var mesh = $Sketchfab_model
 @onready var anim_player = $AnimationPlayer
 
 func _physics_process(delta):
@@ -21,9 +21,7 @@ func _physics_process(delta):
 	# Movement
 	if input_dir != Vector3.ZERO:
 		# Rotate character toward movement direction
-		#var target_rotation = Vector3(0, atan2(input_dir.x, input_dir.z), 0)
-		rotation.z = atan2(input_dir.x, input_dir.z)
-
+		mesh.rotation.y = atan2(input_dir.x, input_dir.z)
 		# Move
 		velocity.x = input_dir.x * speed
 		velocity.z = input_dir.z * speed
