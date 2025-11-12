@@ -1,8 +1,8 @@
-[gd_scene load_steps=16 format=4 uid="uid://q4kax7n81luc"]
+[gd_scene load_steps=17 format=4 uid="uid://q4kax7n81luc"]
 
 [ext_resource type="Script" uid="uid://b2tyo6jm1p3ym" path="res://Scripts/characters/nanny/nanny_controller.gd" id="1_jj7sq"]
 [ext_resource type="Material" uid="uid://bliepsvgtwvil" path="res://Assets/extracted/chinese_girl.tres" id="1_ukeex"]
-[ext_resource type="Animation" uid="uid://d4hvkj2iunyma" path="res://Animations/nanny_walk.res" id="2_jj7sq"]
+[ext_resource type="Animation" uid="uid://cffv4dxa43jje" path="res://Animations/nanny_walk.res" id="2_jj7sq"]
 [ext_resource type="Texture2D" uid="uid://ds5jaeh82072a" path="res://Assets/knife/combat_knife_0.jpg" id="3_5lscs"]
 [ext_resource type="Texture2D" uid="uid://6l7y4imwu8go" path="res://Assets/knife/combat_knife_1.png" id="4_iukr4"]
 [ext_resource type="Texture2D" uid="uid://b3qxvbqw668uw" path="res://Assets/knife/combat_knife_2.jpg" id="5_3xqmo"]
@@ -239,13 +239,17 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_og7a7")
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_8x1w3"]
+[sub_resource type="SphereShape3D" id="SphereShape3D_jj7sq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jj7sq"]
+size = Vector3(10, 0.1, 10)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_uduce"]
 
 [node name="Node3D" type="Node3D"]
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15065575, 0)
 script = ExtResource("1_jj7sq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
@@ -748,13 +752,13 @@ libraries = {
 autoplay = "WALK_2"
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
-transform = Transform3D(0.9293712, 0, 0.36914667, 0, 1, 0, -0.36914667, 0, 0.9293712, 0.59925854, 1.7491319, 3)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.59925854, 1.7491319, 3)
 
-[node name="knife" type="Node3D" parent="."]
-transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.22822428, 1.2249665)
+[node name="knife" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13577795, 0.028673649)
 
 [node name="Sketchfab_model" type="Node3D" parent="knife"]
-transform = Transform3D(1, 0, 0, 0, 2.220446e-16, 1, 0, -1, 2.220446e-16, -1.2053448, 0, 0)
+transform = Transform3D(0.1, 0, 0, 0, 2.220446e-17, 0.1, 0, -0.1, 2.220446e-17, -0.12053448, 0.22822428, 1.2249665)
 
 [node name="root" type="Node3D" parent="knife/Sketchfab_model"]
 
@@ -768,11 +772,16 @@ transform = Transform3D(0.9985038, -8.032666e-09, 0.05468242, 1.9020874e-08, 1, 
 mesh = SubResource("ArrayMesh_1gtur")
 skeleton = NodePath("")
 
+[node name="CollisionShape3D" type="CollisionShape3D" parent="knife"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.22822428, 1.2249665)
+shape = SubResource("SphereShape3D_jj7sq")
+
 [node name="floor" type="StaticBody3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="floor"]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
-shape = SubResource("BoxShape3D_8x1w3")
+shape = SubResource("BoxShape3D_jj7sq")
+debug_color = Color(1, 0.6, 1, 1)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="floor"]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
